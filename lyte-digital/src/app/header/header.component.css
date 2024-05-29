@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+.header img {
+  height: 30px;
+  width: auto;
+}
+.header .center-text {
+  color: #171717;
+
+  font-family: Urbanist;
+  font-size: 22.222px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.667px; /* 120% */
+  letter-spacing: -0.444px;
+}
+

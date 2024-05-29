@@ -1,0 +1,137 @@
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+.banner-text {
+  flex: 1;
+  padding: 20px;
+}
+.banner-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.banner-text h1 .gray {
+  color: gray;
+}
+.banner-text p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.banner-text .btn {
+  color: white;
+  font-size: 18px;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 26.67px;
+  word-wrap: break-word;
+  background: linear-gradient(
+    94deg,
+    #0c79ba 0%,
+    #1f97c9 56%,
+    #12b4da 100%
+  ) !important;
+  border-radius: 111.11px;
+  border: 1.11px solid;
+}
+.banner-image {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+}
+.fintech-icon {
+  vertical-align: middle;
+  width: 36px; /* Adjust the size as needed */
+  height: auto;
+  margin-left: 10px;
+}
+/* Goal  Section*/
+
+.goals-section {
+  padding: 40px 0;
+}
+
+.goals-top-line {
+  /* justify-content: center;
+  justify-items: center;
+  display: flex;
+  color: #0c79ba;
+  border-radius: 66.667px;
+  font-family: Urbanist;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17.778px; 
+  text-transform: capitalize;
+  background: rgba(12, 121, 186, 0.1);
+  padding: 4px 10px 4px 10px; */
+  text-align: center;
+  margin: 20px 0;
+}
+.goals-top-line span {
+  background: rgba(12, 121, 186, 0.1);
+  color: #0c79ba;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 17.778px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 66.667px;
+}
+.goals-heading {
+  color: #171717;
+  font-size: 53.33px;
+  font-family: Urbanist;
+  font-weight: 500;
+  line-height: 76.67px;
+  word-wrap: break-word;
+  text-align: center;
+}
+.goals-paragraph {
+  /* text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px; */
+  color: rgba(23, 23, 23, 0.6);
+
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 24.444px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35.556px; /* 145.455% */
+  letter-spacing: -0.489px;
+}
+.goal-box {
+  background-color: #f8f9fa;
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: white !important;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.goal-box img {
+  width: 387.778px;
+  height: 388.889px;
+  flex-shrink: 0;
+  /* width: 100%; */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px 8px 0 0;
+}
+.goal-box h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.goal-box p {
+  font-size: 16px;
+  color: #555;
+}
