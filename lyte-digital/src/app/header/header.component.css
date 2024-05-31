@@ -13,13 +13,17 @@
 }
 .header .center-text {
   color: #171717;
-
   font-family: Urbanist;
   font-size: 22.222px;
   font-style: normal;
   font-weight: 500;
   line-height: 26.667px; /* 120% */
   letter-spacing: -0.444px;
+  /* width: 290px !important; */
+  width: 190px;
+}
+.header .center-text img{
+  width: 100px;
 }
 .header .header-button{
   
@@ -37,4 +41,11 @@
 }
 .footer{
   padding: 20px 10% 0px 10%;
+}
+.header-center{
+  display: flex;
+  width: 180px;
+}
+.header-center img{
+margin-left: -60px;
 }
