@@ -1,0 +1,32 @@
+
+  <!-- Waitlist Modal -->
+  <div class="model" *ngIf="showModal" id="waitlistModal" tabindex="-1" role="dialog" aria-labelledby="waitlistModalLabel" (click)="closeModal($event)" >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content" *ngIf="!successModel">
+        <div class="modal-logo text-center">
+          <img src="/assets/images/logo.png" alt="Logo" class="logo">
+        </div>
+        <div class="modal-body text-center">
+          <h2 class="heading">Join our <span class="text-secondary">Waitlist!</span></h2>
+          <p>Please provide us with your full name, email so we can notify you as soon we Launch</p>
+          <div class="input-area">
+            <input type="name" class="form-control input" id="name" placeholder="Input Your Full Name">
+            <input type="email" class="form-control input" id="emailInput" placeholder="Input Your Email Address">
+          </div>
+          <button class="btn btn-primary" id="joinWaitlistButton" (click)="saveMOdel()" >Join our Waitlist</button>
+        </div>
+      </div>
+      <!-- Success Model -->
+      <div class="modal-content2" *ngIf="successModel">
+        <div class="modal-header text-center">
+          <h2 class="heading text-center">Well <span class="text-secondary">Done!</span></h2>
+        </div>
+        <div class="modal-body text-center">
+          <p>We are happy you decided to join the lyte family. You will receive an email as soon as we launch.</p>
+          <button class="btn btn-primary" id="closeModalButton" (click)="saveSuccessModel()" >Okay thanks</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  

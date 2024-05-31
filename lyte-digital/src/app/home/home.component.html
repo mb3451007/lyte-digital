@@ -1,49 +1,254 @@
-<div class="container">
-    <div class="banner">
-        <div class="banner-text">
-            <h1>
-                Fintech <img src="/assets/images/banner-text-logo.png" alt="Icon" class="fintech-icon"><br>
-                Innovation<br>
-                for <span class="gray">Everyone</span>
-            </h1>
-            <p>We recognize the challenges of fintech development. That's why we streamline the process, ensuring accessibility for businesses of every size and skill level.</p>
-            <button class="btn">Explore More</button>
-        </div>
-        <div class="banner-image">
-            <img src="/assets/images/banner.png" alt="Fintech Image">
-        </div>
-    </div>
-<!-- Goal Section -->
-
-    <!-- Goals Section -->
-    <div class="goals-section">
-        <div class="goals-top-line">
-            <span>How do you achieve this?</span>
-        </div>
-        <h2 class="goals-heading">How do we <span class="text-secondary">achieve</span> this?</h2>
-        <p class="goals-paragraph">We simplify the complexities of fintech development which enables you to:</p>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="goal-box">
-                    <img src="/assets/images/goal-frame1.png" alt="Focus on driving business growth">
-                    <h4>Focus on driving business growth</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="goal-box">
-                    <img src="/assets/images/goal-frame2.png" alt="Focus on driving business growth">
-                    <h4>Improve your customer experience</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="goal-box">
-                    <img src="/assets/images/goal-frame3.png" alt="Focus on driving business growth">
-                    <h4>Innovate and enhance your product offerings and services</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="banner row">
+  <div class="banner-text col-lg-7">
+    <h1>
+      Fintech
+      <img
+        src="/assets/images/banner-text-logo.png"
+        alt="Icon"
+        class="fintech-icon"
+      /><br />
+      Innovation<br />
+      for <span class="gray">Everyone</span>
+    </h1>
+    <p>
+      We recognize the challenges of fintech development. That's why we
+      streamline the process, ensuring accessibility for businesses of every
+      size and skill level.
+    </p>
+    <button class="btn" (click)="openModal()">Explore More</button>
+  </div>
+  <div class="banner-image col-lg-5">
+    <img src="/assets/images/banner.png" alt="Fintech Image" />
+  </div>
 </div>
+<!-- Goal Section -->
+<!-- <div class="container"> -->
+<!-- Goals Section -->
+<div class="goals-section">
+  <div class="goals-top-line">
+    <span>How do you achieve this?</span>
+  </div>
+  <h2 class="goals-heading">
+    How do we <span class="text-secondary">achieve</span> this?
+  </h2>
+  <p class="goals-paragraph">
+    We simplify the complexities of fintech development which enables you to:
+  </p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="goal-box">
+        <img
+          src="/assets/images/goal-frame1.png"
+          alt="Focus on driving business growth"
+        />
+        <h4>Focus on driving business growth</h4>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="goal-box">
+        <img
+          src="/assets/images/goal-frame2.png"
+          alt="Focus on driving business growth"
+        />
+        <h4>Improve your customer experience</h4>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="goal-box">
+        <img
+          src="/assets/images/goal-frame3.png"
+          alt="Focus on driving business growth"
+        />
+        <h4>Innovate and enhance your product offerings and services</h4>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Offering Section -->
+<div class="heading">
+  <h1><span>Platform</span> Offerings</h1>
+  <p>
+    We offer a wide range of features those are custom made for our customers.
+  </p>
+</div>
+
+<div class="row offering-section">
+  <div class="col-md-6 d-flex align-items-stretch">
+    <div class="feature-box d-flex flex-column">
+      <img src="/assets/images/offering-logo1.png" alt="Icon" class="icon" />
+      <h3>Prebuilt widgets & modules</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s.
+      </p>
+      <img
+        src="/assets/images/offering-pic1.jpg"
+        alt="Feature Image"
+        class="mt-auto"
+      />
+    </div>
+  </div>
+  <div class="col-md-6 d-flex align-items-stretch">
+    <div class="feature-box d-flex flex-column">
+      <img src="/assets/images/offering-logo2.png" alt="Icon" class="icon" />
+      <h3>Omni Channel layer / Multi Channel support</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s.
+      </p>
+      <img
+        src="/assets/images/offering-pic2.png"
+        alt="Feature Image"
+        class="mt-auto"
+      />
+    </div>
+  </div>
+</div>
+
+<!-- content section -->
+<div class="row content">
+  <div class="col-md-6">
+    <div class="content-box">
+      <img src="/assets/images/content-icon.png" alt="Icon" class="icon" />
+      <h3>Continent flavoured customer experiences</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="content-box">
+      <img src="/assets/images/content-pic.jpg" alt="content image" />
+    </div>
+  </div>
+</div>
+
+<hr class="w-100 pt-5 pb-5" >
+<!-- channels section -->
+<div class="channels-section row">
+  <div class="col-md-6 left-side">
+    <div class="background-text">Features</div>
+    <h2 class="heading text-start">Interface & <br /><span>Channels</span></h2>
+    <p>
+      Discover the future of finance with our all-inclusive fintech platform,
+      combining voice, chat, clicks, and swipes for seamless, effortless
+      banking.
+    </p>
+    <div class="icon-text">
+      <img src="/assets/images/channel-logo1.png" alt="Voice Icon" />
+      <span>Voice</span>
+    </div>
+    <div class="icon-text">
+      <img src="/assets/images/channel-logo2.png" alt="Chat Icon" />
+      <span>Chat</span>
+    </div>
+    <div class="icon-text">
+      <img src="/assets/images/channel-logo3.png" alt="Clicks & Swipes Icon" />
+      <span>Clicks & Swipes</span>
+    </div>
+  </div>
+  <div class="col-md-6 right-side">
+    <img src="/assets/images/channel-right.png" alt="Interface Image" />
+  </div>
+</div>
+  <!-- Delivery Partners Section -->
+
+  <div class="delivery-partners-section">
+    <div class="text-center">
+      <h2 class="section-heading">Delivery <span>Partners</span></h2>
+      <p class="section-description">
+        Partner with top industry players to provide integrated services driving
+        the fintech roadmap through our platform.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="partner-box">
+          <div class="icon-container">
+            <img src="/assets/images/partner-logo1.png" alt="Icon 1" />
+          </div>
+          <h4 class="partner-heading">KYC & ID Verification</h4>
+          <p class="partner-description">
+            When an unknown printer took a galley of type and scrambled it to
+            make a type specimen book.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-box">
+          <div class="icon-container">
+            <img src="/assets/images/partner-logo3.png" alt="Icon 2" />
+          </div>
+          <h4 class="partner-heading">Cloud Service Providers</h4>
+          <p class="partner-description">
+            When an unknown printer took a galley of type and scrambled it to
+            make a type specimen book.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-box">
+          <div class="icon-container">
+            <img src="/assets/images/partner-logo3.png" alt="Icon 3" />
+          </div>
+          <h4 class="partner-heading">Fraud & Compliance</h4>
+          <p class="partner-description">
+            When an unknown printer took a galley of type and scrambled it to
+            make a type specimen book.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-box">
+          <div class="icon-container">
+            <img src="/assets/images/partner-logo4.png" alt="Icon 4" />
+          </div>
+          <h4 class="partner-heading">Platform Security Assessment</h4>
+          <p class="partner-description">
+            When an unknown printer took a galley of type?
+          </p>
+        </div>
+      </div>
+      <span class="partner-button justify-content-center text-center">
+        <button class="btn">And Many More...</button></span
+      >
+    </div>
+
+    <!-- Ignite Section -->
+    <div class="ignite-section text-center">
+      <img
+        src="/assets/images/ignite-icon.png"
+        alt="Icon"
+        class="ignite-icon"
+      />
+      <h2 class="ignite-heading">Ignite Your <span>Fintech</span> Potential</h2>
+      <p class="ignite-text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+      <button class="ignite-button">Sign-up for updates</button>
+    </div>
+
+    <!-- </div> -->
+
+    <div class="model">
+      <app-model></app-model>
+    </div>
+  </div>
