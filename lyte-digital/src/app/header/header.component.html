@@ -1,17 +1,21 @@
 <!-- <div class="container"> -->
 <div class="header">
-    <img src="/assets/images/logo.png" alt=" Logo">
+    <img src="/assets/images/logo.png" alt=" Logo" class="logo-img">
     <!-- <div class="center-text">Coming Soon</div> -->
     <div class="header-center">
-    <div style="color: #171717; font-size: 22.22px; font-family: Urbanist; font-weight: 500; line-height: 26.67px; word-wrap: break-word center-text" class="header-center">Coming Soon </div>
-    <img src="/assets/images/coming-Soon.png" alt="coming-soon">
+        <div class="header-center header-text">Coming Soon </div>
+    <img class="soon-img" src="/assets/images/coming-Soon.png" alt="coming-soon">
    </div>
     <!-- <button class="btn">Sign Up for Updates</button> -->
     
-    <div class="header-button" style="background: linear-gradient(94deg, #0C79BA 0%, #1F97C9 56%, #12B4DA 100%);">
-        <button class="btn">Sign-up for updates</button>
+    <div class="header-button">
+        <button class="btn" (click)="openModal()">Sign-up for updates</button>
     </div>
 </div>
 <!-- </div> -->
 <app-home></app-home>
 <div class="footer"><app-footer></app-footer></div>
+
+<div class="model">
+    <app-model></app-model>
+  </div>

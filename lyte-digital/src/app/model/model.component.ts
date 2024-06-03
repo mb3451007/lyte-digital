@@ -17,10 +17,12 @@ export class ModelComponent {
   closeModal(event: Event) {
     
     if ((event.target as HTMLElement).id === 'waitlistModal') {
+      this.successModel = false;
       this.showModal = false;
     }
-}
-saveSuccessModel(){
-  this.showModal=false;
-}
+  }
+  saveSuccessModel(){
+    this.successModel = false;
+    this.showModal=false;
+  }
 }

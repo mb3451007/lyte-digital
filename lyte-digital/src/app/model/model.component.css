@@ -2,6 +2,7 @@
   max-width: 150px;
   justify-content: center;
   justify-items: center;
+  margin-left: 8%;
 }
 
 .logo img {
@@ -143,7 +144,7 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-color: #fff; 
     padding: 5%;
-    padding-top: 20%;
+    padding-top: 30%;
     border-radius: 50px;
     width: 80%; 
     max-width: 600px; }
@@ -151,4 +152,64 @@ background-repeat: no-repeat;
  
   .model.show {
     display: block;
+  }
+
+  @media screen and (max-width: 457px) {
+    .logo {
+      margin-left: 20% !important;
+      margin-top: 15px !important;
+    }
+
+    .model .heading {
+      font-size: 32px !important;
+      font-weight: 500 !important;
+      line-height: 43.75px !important;  
+      letter-spacing: -0.96px !important;
+      font-family: Urbanist !important; 
+    }
+
+    .modal-body p {
+      font-size: 14px !important;
+      font-weight: 500 !important;
+      line-height: 22px !important;
+      letter-spacing: -0.28px !important;
+    }
+
+    .input {
+      padding: 11.111px 24.306px !important;
+      gap: 6.944px !important;
+      color: #171717 !important;
+      font-size: 11.111px !important;
+      font-style: normal !important;
+      font-weight: 600 !important;
+      line-height: 150% !important;
+
+    }
+
+    ::placeholder {
+      font-size: 11.111px !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      color: rgba(23, 23, 23, 0.30) !important;
+    }
+
+    .btn-primary {
+      padding: 11.111px 24.306px !important;
+      gap: 6.944px !important;
+      flex-shrink: 0 !important;
+      font-size: 12.5px !important;
+      font-style: normal !important;
+      font-weight: 700 !important;
+      line-height: 16.667px !important;
+      letter-spacing: -0.5px !important;
+    }
+
+    .modal-content, .modal-content2 {
+      width: 100% !important;
+      padding: 7% !important;
+    }
+
+    .modal-content2 {
+      padding-top: 58% !important;
+    }
   }
